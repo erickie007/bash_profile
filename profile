@@ -12,7 +12,7 @@ export PATH="$PATH:$HOME/.local/bin"
 # Automated Script for Recon
 
 recon() {
-    bash ~/tools/red-team-recon.sh $1
+    bash ~/tools/red-team-recon/red-team-recon.sh $1
 }
 
 ipinfo() {
