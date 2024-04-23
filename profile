@@ -19,6 +19,10 @@ ipinfo() {
     curl https://ipinfo.io
 }
 
+scout() {
+    python3 ~/tools/ScoutSuite/scout.py
+}
+
 ipcity() {
     curl https://ipinfo.io/city
 }
