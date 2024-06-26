@@ -38,3 +38,7 @@ dirsearch() {
 spoof() {
     bash ~/tools/sendemail/sendemail.sh
 }
+
+sniff(){
+    sudo bettercap -caplet ~/tools/sniff/sniff.cap
+}
