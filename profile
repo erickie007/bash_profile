@@ -42,3 +42,11 @@ spoof() {
 sniff(){
     sudo bettercap -caplet ~/tools/sniff/sniff.cap
 }
+
+upgrade(){
+    sudo apt update && sudo apt upgrade -y
+}
+
+clean(){
+    sudo apt autoclean && sudo apt autoremove -y
+}
